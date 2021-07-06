@@ -1989,27 +1989,27 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@testing-library/angular@10.8.2":
-  version "10.8.2"
-  resolved "https://registry.yarnpkg.com/@testing-library/angular/-/angular-10.8.2.tgz#c146a8107fee515596ffbe847e2aa7b837303a17"
-  integrity sha512-htMijre39ynh+aqFML1yO3yo6HvOJcThd6OkyWaQdnID85e4OXEpiH62SSWsX+rYJAWsVbOgodwyBVRudlMo0A==
+"@testing-library/angular@10.9.2":
+  version "10.9.2"
+  resolved "https://registry.yarnpkg.com/@testing-library/angular/-/angular-10.9.2.tgz#7579f1d7c9b61d0cb8c4f0f1d863614d3d35ad7a"
+  integrity sha512-GB3QIcv468sVzvzNzUYC55xEOPdp2yS2JlXx6Pkc2zPVudc2IFxkYBqkbKAZjNyvR6sSm988AIkdQKn0tHMyhA==
   dependencies:
-    "@testing-library/dom" "7.29.4"
+    "@testing-library/dom" "^8.0.0"
     tslib "^2.0.0"
 
-"@testing-library/dom@7.29.4":
-  version "7.29.4"
-  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-7.29.4.tgz#1647c2b478789621ead7a50614ad81ab5ae5b86c"
-  integrity sha512-CtrJRiSYEfbtNGtEsd78mk1n1v2TUbeABlNIcOCJdDfkN5/JTOwQEbbQpoSRxGqzcWPgStMvJ4mNolSuBRv1NA==
+"@testing-library/dom@^8.0.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-8.1.0.tgz#f8358b1883844ea569ba76b7e94582168df5370d"
+  integrity sha512-kmW9alndr19qd6DABzQ978zKQ+J65gU2Rzkl8hriIetPnwpesRaK4//jEQyYh8fEALmGhomD/LBQqt+o+DL95Q==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/runtime" "^7.12.5"
     "@types/aria-query" "^4.2.0"
     aria-query "^4.2.2"
     chalk "^4.1.0"
-    dom-accessibility-api "^0.5.4"
+    dom-accessibility-api "^0.5.6"
     lz-string "^1.4.4"
-    pretty-format "^26.6.2"
+    pretty-format "^27.0.2"
 
 "@testing-library/jest-dom@5.14.1":
   version "5.14.1"
@@ -4498,7 +4498,7 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-dom-accessibility-api@^0.5.4, dom-accessibility-api@^0.5.6:
+dom-accessibility-api@^0.5.6:
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/dom-accessibility-api/-/dom-accessibility-api-0.5.6.tgz#3f5d43b52c7a3bd68b5fb63fa47b4e4c1fdf65a9"
   integrity sha512-DplGLZd8L1lN64jlT27N9TVSESFR5STaEJvX+thCby7fuCHonfPpAlodYc3vuUYbDuDec5w8AMP7oCM5TWFsqw==
