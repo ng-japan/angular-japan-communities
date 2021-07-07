@@ -2208,10 +2208,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.5.tgz#b59daf6a7ffa461b5648456ca59050ba8e40ed54"
   integrity sha512-bjqH2cX/O33jXT/UmReo2pM7DIJREPMnarixbQ57DOOzzFaI6D2+IcwaJQaJpv0M1E9TIhPCYVxrkcityLjlqA==
 
-"@types/node@^15.3":
-  version "15.12.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.12.2.tgz#1f2b42c4be7156ff4a6f914b2fb03d05fa84e38d"
-  integrity sha512-zjQ69G564OCIWIOHSXyQEEDpdpGl+G348RAKY0XXy9Z5kU9Vzv1GMNnkar/ZJ8dzXB3COzD9Mo9NtRZ4xfgUww==
+"@types/node@^16.0":
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.0.0.tgz#067a6c49dc7a5c2412a505628e26902ae967bf6f"
+  integrity sha512-TmCW5HoZ2o2/z2EYi109jLqIaPIi9y/lc2LmDCWzuCi35bcaQ+OtUh6nwBiFK7SOu25FAU5+YKdqFZUwtqGSdg==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -10087,11 +10087,6 @@ shebang-regex@^3.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
-shq@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/shq/-/shq-1.0.2.tgz#bc3f9ac369100cdd754d45032d987b3b62d32fd0"
-  integrity sha512-8AvNyHL75DHlkbLmzF7nzTzT2F0qEfSewwxHjH79Ww8S+hGpIZVlf8b0TcdOwv4HqIkOVBInu9n+wqhUSl9Wag==
-
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
@@ -11812,14 +11807,13 @@ zwitch@^1.0.0:
   resolved "https://registry.yarnpkg.com/zwitch/-/zwitch-1.0.5.tgz#d11d7381ffed16b742f6af7b3f223d5cd9fe9920"
   integrity sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==
 
-zx@1.14.2:
-  version "1.14.2"
-  resolved "https://registry.yarnpkg.com/zx/-/zx-1.14.2.tgz#b719b6a7280a2440af1a93f9b9db1c53552ba5f5"
-  integrity sha512-omgqRVve+5dqbFrogFSjJXLUCUr4xHF2Gan+Njn/z4fumhIj3tMTFEA9iV+HgiobZ5Mgl5N96z4S4fwhaas4Pw==
+zx@1.15.2:
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/zx/-/zx-1.15.2.tgz#8821c30962e97347b62c5b7cbd5c9706ea776211"
+  integrity sha512-UvltPAK8alQ7YXxOZDWCR3m4LppUmOpB3ZpJvc4NL0YEZDikLhC9jd1pnB4Fze/4OcmF3Xff6kK+6DKeqH1efA==
   dependencies:
-    "@types/node" "^15.3"
+    "@types/node" "^16.0"
     "@types/node-fetch" "^2.5.10"
     chalk "^4.1.1"
     node-fetch "^2.6.1"
-    shq "^1.0.2"
     which "^2.0.2"
